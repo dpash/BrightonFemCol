@@ -4,7 +4,7 @@
 -e git://github.com/yourcelf/django-jimmypage.git@4f6dde9a00b3f22bec36f8d91b39a1beffc53cc5#egg=django_jimmypage-dev
 beautifulsoup4>=4.1.3
 Cython>=0.18
--e git://github.com/SiteSupport/gevent.git@bc03e2fdefca3449e8a28253511d92713e341093#egg=gevent-dev
+-e git://github.com/surfly/gevent.git@bc03e2fdefca3449e8a28253511d92713e341093#egg=gevent-dev
 django-allauth>=0.8.3
 django-grappelli>=2.4.3
 django-model-utils>=1.1.0
