@@ -13,7 +13,7 @@ PROJECT_ROOT = Path(__file__).ancestor(3)
 GRAPPELLI_ADMIN_TITLE = 'Brighton Feminist Collective'
 
 ADMINS = (
-    ('James Cleveland', 'james@dapperdogstudios.com'),
+    ('David Pashley', 'david@davidpashley.com'),
 )
 
 MANAGERS = ADMINS
@@ -24,7 +24,7 @@ DATABASES = {
         'NAME': 'brightonfemcol',                      # Or path to database file if using sqlite3.
         'USER': 'brightonfemcol',                      # Not used with sqlite3.
         'PASSWORD': os.environ.get('DJANGO_DB_PASSWORD'),                  # Not used with sqlite3.
-        'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
+        'HOST': 'localhost',                      # Set to empty string for localhost. Not used with sqlite3.
         'PORT': '',                      # Set to empty string for default. Not used with sqlite3.
     }
 }
