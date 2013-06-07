@@ -9,3 +9,5 @@ settings_local.py
 *-built.js
 uwsgi.*
 *.sock
+.idea
+*.iml
